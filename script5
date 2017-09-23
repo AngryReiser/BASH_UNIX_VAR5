@@ -6,4 +6,3 @@ let TS=$SS+1;
 echo `cat dns-tunneling.log | awk ' {print $4} ' |  awk -F'.' '{print $1}' | grep -c $FS`;
 echo `cat dns-tunneling.log | awk ' {print $4} ' |  awk -F'.' '{print $1}' | grep -c $SS`;
 echo `cat dns-tunneling.log | awk ' {print $4} ' |  awk -F'.' '{print $1}' | grep -c $TS`;
-
